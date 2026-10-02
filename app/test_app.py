@@ -8,6 +8,6 @@ def test_health():
 
 def test_hello():
     client = app.test_client()
-    response = client.get("/api/v1/hello?name=Kannan")
+    response = client.get("/api/v1/hello?name=Sample-API")
     assert response.status_code == 200
-    assert response.get_json()["message"] == "Hello Kannan"
+    assert response.get_json()["message"] == "Sample-API"
