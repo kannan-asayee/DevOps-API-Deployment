@@ -1,0 +1,10 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongConsumer
+metadata:
+  name: lab-user
+  namespace: simple-api
+  annotations:
+    kubernetes.io/ingress.class: kong
+username: lab-user
+credentials:
+- lab-user-jwt

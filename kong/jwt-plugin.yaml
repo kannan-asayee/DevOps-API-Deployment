@@ -1,0 +1,11 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongPlugin
+metadata:
+  name: simple-api-jwt
+  namespace: simple-api
+plugin: jwt
+config:
+  header_names:
+  - authorization
+  claims_to_verify:
+  - exp
