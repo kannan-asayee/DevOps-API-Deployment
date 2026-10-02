@@ -590,8 +590,6 @@ After completing the base project:
     performs Kubernetes reconciliation.
 10. Add DEV -\> UAT -\> PROD promotion and approval gates.
 
-## Resume-Safe Project Description
-
 **DevOps/Kubernetes Lab Project:** Built and containerized a Python REST
 API; implemented Jenkins CI for automated unit testing, Docker image
 build and Docker Hub publication; deployed the workload to a kubeadm
