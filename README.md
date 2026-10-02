@@ -179,7 +179,7 @@ simple-api-project/
   -------- ----------------------------- ----------------------------------
   GET      `/`                           API information
   GET      `/health`                     Kubernetes health check
-  GET      `/api/v1/hello?name=Kannan`   Sample API endpoint
+  GET      `/api/v1/hello?name=sample-API`   Sample API endpoint
   GET      `/api/v1/info`                Application/platform information
 
 ## 1. Test the API
@@ -589,8 +589,6 @@ After completing the base project:
 9.  Add Argo CD GitOps so Jenkins updates desired state and Argo CD
     performs Kubernetes reconciliation.
 10. Add DEV -\> UAT -\> PROD promotion and approval gates.
-
-## Resume-Safe Project Description
 
 **DevOps/Kubernetes Lab Project:** Built and containerized a Python REST
 API; implemented Jenkins CI for automated unit testing, Docker image
