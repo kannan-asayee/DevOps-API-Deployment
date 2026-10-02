@@ -16,8 +16,6 @@ Gateway API, JWT authentication, Prometheus, and Grafana**.
 ![Simple API Jenkins Kubernetes Kong
 Architecture](docs/images/simple-api-architecture.png)
 
-> Keep `docs/images/simple-api-architecture.png` in the repository so
-> the diagram renders directly in Azure DevOps or GitHub.
 
 ### CI/CD and Runtime Flow
 
