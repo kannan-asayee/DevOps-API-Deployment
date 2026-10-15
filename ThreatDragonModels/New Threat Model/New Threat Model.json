@@ -1,0 +1,18 @@
+{
+  "version": "2.6.2",
+  "release_version": "1",
+  "released_at": "2026-09-02",
+  "summary": {
+    "title": "New Threat Model",
+    "owner": "kannan",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 1,
+    "reviewer": "durai",
+    "threatTop": 0
+  }
+}
